@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: system-ui, "Segoe Ui", Roboto;
+    background-color: rgba(51, 26, 110, 0.95);
+}
+
+.title{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    background-color: rgba(51, 26, 110, 0.801);
+    font-family: "ClickuperRegular";
+}
+
+.layout-1{
+    background-image: url("/images/jeremy-thomas-rMmibFe4czY-unsplash.jpg");
+    background-size: cover;
+    width: 40%;
+   
+}
+
+.text{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 100px;
+    color: whitesmoke;
+}
+
+.layout-2{
+
+    margin-top: 200px;
+    margin-left: 50px;
+   
+}
+
+.container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+
+.form-container{
+    display: flex;
+    gap: 50px;
+    margin-right: 50px;
+    color: whitesmoke;
+   
+    padding: 10px;
+
+    
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 400px;
+    height: 100%;
+    width: 100%;
+}
+
+.left-column,
+.right-column{
+    width: 50%;
+}
+
+button{
+    background-color: purple;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
